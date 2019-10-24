@@ -2,10 +2,11 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${BROWSER}    www.google.co.th
-${URL}    www.cs.kku.ac.th
+${BROWSER}    Chrome
+${HOMEPAGE}    http://www.google.com
+${URL}    http://www.cs.kku.ac.th
 
 *** Test Browser ***
 Open Browser
-    Open Browser    ${BROWSER} 
+    Open Browser    ${HOMEPAGE}    ${BROWSER}
 	Location Should Be    ${BROWSER}
