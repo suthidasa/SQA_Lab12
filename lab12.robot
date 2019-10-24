@@ -2,8 +2,8 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${SERVER}    localhost:8080
-${BROWSER}    Chrome
+${BROWSER}    www.google.co.th
+${URL}    www.cs.kku.ac.th
 
 *** Test Browser ***
 Open Browser
